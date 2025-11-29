@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.navbar{
+    background-color: rgb(218, 209, 209);
+    border: 1px solid rgb(red, green, blue);
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 20px;
+font-size: large;
+
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+
+
+}
+.navbar ul li a:hover{
+    background-color: rgb(244, 241, 241);
+
+ }
+ #logo{
+    padding-right: 900px;
+    font-weight: bold ;
+    padding-left: 15px;
+    
+    
+ }
+ .homebody{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+    
+ }
+ .hometext
+ {
+     background-image: url(luxury-living-room-furniture-ideas-lifproject.jpg);
+     background-size: cover;
+     background-position: center;
+     margin: 30px;
+     height: 500px;
+     width: 2000px;
+     border-radius: 10px;
+     margin-top: 0;
+     margin-bottom: 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+ .hometext h1 {
+    color: rgb(254, 174, 3);
+ }
+ .hometext button{
+    margin-top: 15px;
+padding: 10px 20px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+
+
+ }
+ .best{
+    padding-left: 15px;
+margin: 30px;
+font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: larger;
+ }
+ .slider-container {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  gap: 20px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.product {
+  min-width: 200px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 4px 3px rgb(0, 0, 0);
+border-radius: 8px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+button.prev,
+button.next {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  border-radius: 5px;
+}
+.myabout{ display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+     
+}
+
+
+
+ .myabout img {
+    width: 350px;   
+    border-radius: 30px;}
+    
+   
+.myabout text {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: lighter;
+
+
+}
+.footer {
+  background-color: #1c1c1c;
+  color: #ddd;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  border-radius: 15px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section h3, .footer-section h4 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+  margin: 5px 0;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  margin-left: 10px;
+  color: #ddd;
+}
+
+.footer-bottom a:hover {
+  color: #fff;
+}
+
+
+
+.About{ display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+     
+}
+
+
+
+ .About img {
+    width: 350px;   
+    border-radius: 30px;}
+    
+   
+.About text {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.logocon{
+   display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.logocon img{
+  width: 350px;   
+    border-radius: 30px;
+}
+.logocon text{ font-size: 30px;
+    line-height: 1.5;
+    font-weight: bolder;}
+
+
+    
+
+    body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        color: #111;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .header h1 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .faq-container {
+        width: 80%;
+        margin: 40px auto;
+        max-width: 900px;
+    }
+
+    .question {
+        background: #f8f8f8;
+        border-radius: 12px;
+        padding: 18px 20px;
+        margin-bottom: 15px;
+        border: 1px solid #e6e6e6;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+  
+    .question summary {
+        font-size: 18px;
+        font-weight: 600;
+        outline: none;
+    }
+
+  .question p {
+        margin-top: 12px;
+        font-size: 16px;
+        color: #444;
+        line-height: 1.7;
+    }
